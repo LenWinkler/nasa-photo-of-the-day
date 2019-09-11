@@ -7,7 +7,6 @@ const Nav = (props) => {
       <div className="navBar">
         <p className="date">{date}</p>
         <div className="divLinks">
-            <a className="link" href="#">About</a>
             <a className="link" href="https://github.com/LenWinkler/nasa-photo-of-the-day/tree/len-winkler">View Code</a>
         </div>
       </div>  

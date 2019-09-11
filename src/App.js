@@ -3,6 +3,7 @@ import axios from "axios";
 import "./App.css";
 import MainContent from "./MainContent/MainContent";
 import Header from "./Header/Header";
+import Footer from "./Footer/Footer";
 
 function App() {
   const [apod, setApod] = useState("#");
@@ -25,6 +26,7 @@ function App() {
     <div className="App">
       <Header date={date}/>
       <MainContent apod={apod} desc={desc} title={title}/>
+      <Footer/>
     </div>
   );
 }
