@@ -1,0 +1,19 @@
+.container {
+    width: 100%;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainContent h2, img {
+    width: 90%;
+}
+
+.picDesc {
+    width: 80%;
+    text-align: center;
+}
