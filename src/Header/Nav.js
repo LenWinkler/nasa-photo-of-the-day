@@ -1,14 +1,16 @@
 import React from "react";
+import "./Nav.css";
 
 const Nav = (props) => {
     var date = props.date;
-    console.log(date);
     return (
-      <>
+      <div className="navBar">
         <p className="date">{date}</p>
-        <a href="#">About</a>
-        <a href="#">Source Code</a>
-      </>  
+        <div className="divLinks">
+            <a className="link" href="#">About</a>
+            <a className="link" href="https://github.com/LenWinkler/nasa-photo-of-the-day/tree/len-winkler">View Code</a>
+        </div>
+      </div>  
     )
 }
 
