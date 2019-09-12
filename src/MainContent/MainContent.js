@@ -1,30 +1,7 @@
 import React from "react";
 import "./MainContent.css";
-import styled from "styled-components";
+import {Container, MainContentDiv, Img, Desc} from "../Style";
 
-const Container = styled.div`
-    width: 100%;
-`;
-
-const MainContentDiv = styled.div`
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 6rem;
-`;
-
-const Img = styled.img`
-    width: 90%;
-    border-radius: 5px;
-`;
-
-const Desc = styled.p`
-    width: 85%;
-    text-align: center;
-    font-size: 1.3rem;
-    margin-bottom: 10rem;
-`;
 
 function MainContent(props) {
     return (
