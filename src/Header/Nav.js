@@ -13,6 +13,7 @@ const NavBar = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: 'Orbitron', sans-serif;
 `;
 
 const Date = styled.p`
